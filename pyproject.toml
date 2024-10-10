@@ -1,0 +1,26 @@
+[project]
+name = "CookAIng"
+version = "0.1.0"
+description = "CookAIng is a Python package for cooking and recipe management."
+authors = [
+    { name = "Yann POURCENOUX", email = "yann.pource@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["cooking", "recipe", "agent"]
+dependencies = [
+    "docformatter>=1.7.5",
+    "isort>=5.13.2",
+    "langchain>=0.3.3",
+    "pandas>=2.2.3",
+    "ollama>=0.3.3",
+    "openpyxl>=3.1.5",
+    "pre-commit>=4.0.1",
+    "ruff>=0.6.9",
+    "streamlit>=1.39.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
